@@ -18,14 +18,6 @@ app.get('/task2D/', async (req, res) => {
     
 });
 
-/*
-app.get(/.+/, async (req, res) => {
-  const response = req.path;
-  let answer = GetPcComponent(pc, response);
-  if (answer !== false) return await res.json(answer); //если НЕ ошибка - отслыаем ответ
-  res.send("Not Found" , 404); //если вернулась ошибка, возвращаем Not Found и статус 404
-});*/
-
 app.listen(3000, () => {
   console.log('Your app task2D! V34');
 });

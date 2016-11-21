@@ -112,33 +112,3 @@ function colorType(newpath){
     return path;
   }
 }
-
-//    let testcolor = isColors('#'+color);
-//    console.log('testcolor: ' + testcolor);
-//    console.log('пробелы: ' + color + color.length);
-//    let newcolor = color.replace(/([a-f0-9]{3}){1,2}/gi,'');
-//    console.log('newcolor: ' + newcolor);
-
-//    let newcolor2 = color.match( /[a-f0-9]{6}\b/gi );
-//    console.log('newcolor: ' + newcolor);
-    
-    
-    /*
-      if ((color.length == 6) && (color.match(/([a-f0-9]{6})\b/) == null)) {
-        return color = 'Invalid color';
-      }
-      if (( 6 !== color.length) && (3 !== color.length)) {
-        console.log('length' + color.length);
-        return color = 'Invalid color';
-      } 
-     
-      else if (color.length == 3) {
-        color = _.split(color, '', 3); // разбиваем на элементы
-        console.log(color);
-        color = _.zip(color,color); // создаем новый массив вида ааbbcc
-        color = color.join(''); // обьединяем в строку
-        color = color.replace(/\,/g,'');
-        console.log('newcolor: ' + color);
-      }
-    color = '#' + color;
-    return color;*/
